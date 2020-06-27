@@ -1,9 +1,9 @@
 package dao;
 
+
 import data.Address;
 
 import java.util.List;
-
 
 public class AddressDao implements Dao<Address> {
     @Override
@@ -13,6 +13,6 @@ public class AddressDao implements Dao<Address> {
 
     @Override
     public Address find() {
-        return null;
+        return new Address("f1", "l1");
     }
 }
